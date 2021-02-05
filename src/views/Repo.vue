@@ -20,6 +20,9 @@
 
     <PageHeader class="secondary-page-header">
       <h1 v-if="repo">{{ repo.name }}</h1>
+      <Button theme="primary" size="l">
+        手动构建
+      </Button>
       <portal-target name="secondary-page-header-actions" slim/>
     </PageHeader>
 
